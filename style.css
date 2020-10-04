@@ -1,0 +1,91 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+html {
+  font-size: 62.5%;
+}
+.clear {
+  clear: both;
+}
+h1 {
+  font-size: 2.8rem;
+}
+h2 {
+  font-size: 5rem;
+  padding: 5rem 0rem;
+}
+a {
+  color: white;
+  text-decoration: none;
+  font-size: 2rem;
+}
+h3 {
+  font-size: 3rem;
+}
+button {
+  font-size: 1.5rem;
+  padding: 1rem;
+}
+nav {
+  background-color: rgb(5, 42, 66);
+  color: white;
+  padding: 3rem;
+}
+nav h1 {
+  float: left;
+}
+
+nav ul {
+  float: right;
+  list-style: none;
+}
+nav li {
+  float: left;
+  margin-right: 4rem;
+}
+.hero-section {
+  background-image: url("/pexels-alisha-mishra-1343504\ \(1\).jpg");
+  height: 80rem;
+  background-position: center;
+  background-size: cover;
+
+  text-align: center;
+  color: white;
+  padding-top: 8rem;
+  text-shadow: 3px 3px 3px black;
+}
+.hero-section button {
+  margin-top: 4rem;
+  padding: 1rem 3rem;
+  border: none;
+  background: rgb(5, 42, 66);
+  color: rgb(255, 255, 255);
+  cursor: pointer;
+}
+.form-section {
+  text-align: center;
+}
+form {
+}
+form input,
+form label,
+form textarea {
+  display: block;
+  font-size: 2rem;
+}
+form input,
+form label,
+form textarea {
+  margin: 2rem auto;
+}
+form button {
+  margin-top: 1rem;
+  margin-bottom: 3rem;
+  padding: 1rem 3rem;
+  border: none;
+  background: rgb(5, 42, 66);
+  color: rgb(255, 255, 255);
+  cursor: pointer;
+}
